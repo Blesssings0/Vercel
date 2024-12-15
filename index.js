@@ -5,7 +5,7 @@ const authorsRouter = require('./routes/authors');
 const booksRouter = require('./routes/books');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80
 
 // Middleware
 app.use(cors());
